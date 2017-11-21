@@ -14,7 +14,7 @@ public class Cuadrado extends Cuadrilatero{
      * 
      * @param x base del cuadrado
      * @param y altura del cuadrado
-     * @return 
+     * @return multiplicacion entre x y y
      */    
     public int area(int x, int y) {
         return x*y;
@@ -24,7 +24,7 @@ public class Cuadrado extends Cuadrilatero{
      * 
      * @param x base del cuadrado
      * @param y altura del cuadrado
-     * @return 
+     * @return el doble de x sumando con el doble de y
      */    
     public int perimeto(int x, int y) {
         return (2*x)+(2*y);

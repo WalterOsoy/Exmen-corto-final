@@ -10,7 +10,12 @@ package Problema1;
  * @author walte
  */
 public class CifradoCesar {
-
+/**
+ * 
+ * @param frase palabra escondida 
+ * @param distancia distancia entre letra real y letra falsa
+ * @return frase real
+ */
     String cifrarCesar(String frase, int distancia) {
         StringBuilder codigo = new StringBuilder();
         distancia = distancia % 26;

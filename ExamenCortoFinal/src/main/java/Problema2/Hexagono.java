@@ -10,12 +10,21 @@ package Problema2;
  * @author walte
  */
 public class Hexagono implements Poligono{    
+    /**
+     * atributos de la clase
+     */
     private int l,apotema;
-    
+    /**
+     * uso de formula del area para el hexagono
+     * @return 
+     */
     public double area() {
         return 3*l*apotema;
     }
-    
+    /**
+     * suma de todos los lados externos de figura
+     * @return 
+     */
     public double perimeto() {
       return 6*l;
     }
